@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -79,6 +79,7 @@ namespace wordwars1
                 {
                     string grt = "No Word!";
                     MessageBox.Show(grt);
+			   MessageBox.show("Test");
                 }
             }
             catch (Exception q)
