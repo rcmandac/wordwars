@@ -79,7 +79,6 @@ namespace wordwars1
                 {
                     string grt = "No Word!";
                     MessageBox.Show(grt);
-			   MessageBox.show("Test");
                 }
             }
             catch (Exception q)
@@ -138,5 +137,9 @@ namespace wordwars1
             }
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

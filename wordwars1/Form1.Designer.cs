@@ -89,6 +89,7 @@
             this.label1.Size = new System.Drawing.Size(274, 44);
             this.label1.TabIndex = 27;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button21
             // 
@@ -365,6 +366,7 @@
             // 
             // Form1
             // 
+            this.AcceptButton = this.Attack;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(438, 390);
@@ -398,9 +400,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Attack);
             this.Controls.Add(this.Start);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Word Wars";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
